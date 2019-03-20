@@ -1,7 +1,7 @@
 /*
-			Author: Jacob Morones
-			Class: Computer Programming II
-			Description: This program will ask you for a roman number and then it will print out the corresponding roman numeral
+			 Author: Jacob Morones
+			 Class: Computer Programming II
+			 Description: This program will ask you for a roman number and then it will print out the corresponding roman numeral
 */
 #include "pch.h"
 #include <iostream>
