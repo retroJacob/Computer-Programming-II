@@ -204,11 +204,11 @@ status ticTacToe::gameStatus()
 
 	//Check diagonals for a win
 		return WIN;
-// STUDENT write an IF-statement to check for a win on first diagonal
+// IF-statement to check for a win on first diagonal
 	if((board[0][0] == 'X' && board[1][1] == 'X' && board[2][2] == 'X') || (board[0][0] == 'X' && board[1][1] == 'X' && board[2][2] == 'X'))
 		return WIN;
 
-	// STUDENT write an IF-statement to check for a win on first diagonal
+	// IF-statement to check for a win on first diagonal
 	if((board[0][2] == 'X' && board[1][1] == 'X' && board[2][0] == 'X') || (board[0][2] == 'O' && board[1][1] == 'O' && board[2][0] == 'O'))
 		return WIN;
 
@@ -220,7 +220,7 @@ status ticTacToe::gameStatus()
 
 void ticTacToe::reStart()
 {
-	//  STUDENT write a nested for-loop to reinitialize the board to spaces.
+	//  nested for-loop to reinitialize the board to spaces.
 	for (int row = 0; 3 > row; row++)
 	{
 		for (int col = 0; col < 3; col++)
@@ -240,7 +240,7 @@ void ticTacToe::reStart()
 
 ticTacToe::ticTacToe()
 {
-	//  STUDENT write a nested for-loop to initialize the board to spaces.
+	//   nested for-loop to initialize the board to spaces.
 	for (int row = 0; 3 > row; row++)
 	{
 		for (int col = 0; col < 3; col++)
